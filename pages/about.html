@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>О нас</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+
+<div class="wrapper row1 bgded overlay light" style="background-image:url('../images/backgrounds/01.png')"> 
+
+  <header id="header" class="clear"> 
+    <div id="logo" class="fl_left">
+      <h1><a href="../index.html">Суйт</a></h1>
+    </div>
+    <nav id="mainav" class="fl_right">
+      <ul class="clear">
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../pages/gallery.html">Галерея</a></li>
+        </li>
+        <li><a class="drop" href="#">Список</a>
+          <ul>
+            <li><a href="#">Уровень 2</a></li>
+            <li><a class="drop" href="#">Уровень 2 + Список</a>
+              <ul>
+                <li><a href="#">Уровень 3</a></li>
+                <li><a href="#">Уровень 3</a></li>
+                <li><a href="#">Уровень 3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Уровень 2</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="../pages/about.html">О нас</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+<div class="wrapper row3">
+  <main class="container clear"> 
+    <div class="content"> 
+      <h1>О нас</h1>
+      <p>Мы самая дешевая компания на рынке. Делаем качественно. Отвечаю.</p>
+      <p>ну тут еще какой-то текст.</p>
+      <p>и вот тут можно что-то написать умное</p>
+      <p>или просто взять кусок текста из рандомной книги</p>
+      <p>Если у вас остались вопросы или вы хотите обсудить проэкт, вы можете связаться с нами используя форму ниже</p>
+
+      <div id="comments">
+        <h2>Обратная связь</h2>
+        <form action="#" method="post">
+          <div class="one_half first">
+            <label for="name">Имя <span>*</span></label>
+            <input type="text" name="name" id="name" value="" size="22">
+          </div>
+          <div class="one_half">
+            <label for="email">Почтовый адрес <span>*</span></label>
+            <input type="text" name="email" id="email" value="" size="22">
+          </div>
+ 
+          <div class="block clear">
+            <label for="comment">Сообщение</label>
+            <textarea name="comment" id="comment" cols="25" rows="10"></textarea>
+          </div>
+          <div>
+            <input name="submit" type="submit" value="Отправить">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </main>
+</div>
+
+
+<div class="wrapper row5">
+  <div id="copyright" class="clear"> 
+    <p class="fl_left">Copyright &copy; 2015 - 2115 - практически все права защищены</p>
+  </div>
+</div>
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a> 
+
+<script src="../layout/scripts/jquery.min.js"></script> 
+<script src="../layout/scripts/jquery.backtotop.js"></script> 
+<script src="../layout/scripts/jquery.mobilemenu.js"></script> 
+
+</body>
+</html>
